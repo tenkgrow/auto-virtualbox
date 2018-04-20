@@ -20,5 +20,5 @@ VBoxManage storageattach "$name" --storagectl "SATA Controller" --port 0  --devi
 VBoxManage modifyvm "$name" --boot1 dvd --boot2 disk --boot3 none --boot4 none
 VBoxManage modifyvm "$name" --memory 1024 --vram 128
 VBoxManage modifyvm "$name" --nic1 bridged --bridgeadapter1 enp2s0 --cableconnected1 on
-VBoxManage modifyvm "$name" --nic2 hostonly --hostonlyadapter2 vboxnet1 --cableconnected2 on
+VBoxManage modifyvm "$name" --nic2 hostonly --hostonlyadapter2 vboxnet0 --cableconnected2 on
 VBoxManage startvm "$name"
