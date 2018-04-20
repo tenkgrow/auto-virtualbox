@@ -3,7 +3,7 @@
 #The name it's going to be displayed as in VirtualBox
 name="Automatized Pfsense"
 #The type of operating system the VM needs
-os='Linux'
+os='Linux_64'
 #Size of the disk in Mbytes
 size=10000
 #The folder where the .iso file can be located
